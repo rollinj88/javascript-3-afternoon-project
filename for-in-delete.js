@@ -40,9 +40,13 @@
 */
 
 function showValues( obj ) {
-  //Code Here
+  const arr = []
+  for (let key in obj){
+    arr.push(obj[key])
+    
+  } 
+  return arr.join("")
 }
-
 
 
 ////////// PROBLEM 2 //////////
@@ -53,7 +57,7 @@ function showValues( obj ) {
   Return the updated object.
 */
 
-//Code Here
+
 
 
 
