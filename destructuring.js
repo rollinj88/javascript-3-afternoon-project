@@ -126,4 +126,3 @@ function numberGroups ({a, b, c}) {
       }
 }
 
-
